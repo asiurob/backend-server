@@ -1,0 +1,1 @@
+module.exports.seed = 'b1c2aa4009';
