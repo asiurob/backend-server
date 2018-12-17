@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Este es el servidor para Angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Siurob",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
