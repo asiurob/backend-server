@@ -7,7 +7,8 @@ var usuarioSchema = new schema({
     email:    { type: String, unique: true, required: [true, 'El correo es necesario'] },
     password: { type: String, required: [true, 'El correo es necesario'] },
     image:    { type: String},
-    role:     { type: String, required: true, default: 'USER_ROLE' }
+    role:     { type: String, required: true, default: 'USER_ROLE' },
+    google:   { type: Boolean, default: false }
 
 });
 

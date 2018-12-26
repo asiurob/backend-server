@@ -10,7 +10,7 @@ var loginRoute    = require('./routes/login');
 var hospitalRoute = require('./routes/hospital');
 var medicoRoute   = require('./routes/medico');
 var uploadRoute   = require('./routes/upload');
-var imgesRoute   = require('./routes/images');
+var imagesRoute   = require('./routes/images');
 
 //Inicializaciones
 var app = express();
@@ -31,7 +31,7 @@ app.use('/login', loginRoute );
 app.use('/hospitales', hospitalRoute );
 app.use('/medico', medicoRoute );
 app.use('/upload', uploadRoute );
-app.use('/upload', imagesRoute );
+app.use('/images', imagesRoute );
 app.use('/', routes );
 
 
